@@ -1,7 +1,3 @@
-
-import os
-os.chdir(r'F:\practice\fraud')
-
 import streamlit as st
 import pandas as pd
 import joblib
@@ -36,3 +32,4 @@ if st.button("Predict"):
         st.error("This transaction can be fraud")
     else:
         st.success("This transaction looks like it is not a fraud")
+
