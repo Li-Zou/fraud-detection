@@ -18,3 +18,8 @@ This repo contains all of the code to build a fraud detection system. There are 
 ## 3️⃣. Setup
 * streamlit run step2_deploy.py  (run in the terminal)
 
+ ## Data
+* [Data source](https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-dataset?resource=download)
+* The dataset contains the records of financial transactions for fraud detection. (6.3 Million Records)
+
+
