@@ -1,0 +1,17 @@
+,,,,,,,
+,,Method,f1-score,precision,recall,roc-auc,auc
+anomaly detection,hard-code,book_window,0.38,0.54,0.29,0.23,0.64
+,,length_of_stay,0.27,0.25,0.28,0.15,0.63
+,,property_age,0.43,0.84,0.29,0.31,0.65
+,,credit_card_id_count,0.43,0.84,0.29,0.28,0.64
+,,ip_id_count,0.38,0.53,0.29,0.17,0.64
+,,email_id_count,0.42,0.77,0.29,0.27,0.64
+,,hotel_id_count,0.42,0.77,0.29,0.3,0.65
+,,language_flag1,0.18,0.12,0.41,0.08,0.62
+,,language_flag2,0.23,0.17,0.35,0.09,0.63
+,,language_flag3,0.23,0.17,0.36,0.1,0.63
+,unsupervised learning,isolation_forest,0.42,0.78,0.29,0.32,0.64
+,,local_outlier_factor,0.11,0.06,0.84,0.06,0.51
+classification,supervised learning,logistic_regression,0.42,0.84,0.28,0.31,0.65
+,,random_forest_classifier,0.42,0.83,0.28,0.31,0.64
+,,gradient_boosting_classifier,0.42,0.83,0.28,0.31,0.65
